@@ -11,15 +11,14 @@ my_tuple = (1,2,3,1.45,'Word',[7,8,9])
 #recuperer un element d'un tuple
 print(my_tuple[5])
 print(my_tuple[4])
-# my_tuple.reverse()
+#my_tuple.reverse()
 
 # how to pick elements from a tuple or a list -> Indexing or slicing
 # print(my_list[2])
-# print(my_tuple[5][0])
+print(my_tuple[5][0])
 # print(my_tuple[-3])
 
 # exercise 
 # get the word / string 'hello :)'
 exercise_list = ['first entry',[123,456,[0,'Hello :)']], 'bye']
-solution_var = exercise_list[1][2][1]
-print(solution_var)
+print(exercise_list[1][2][1])
